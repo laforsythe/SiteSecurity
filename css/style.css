@@ -4,9 +4,18 @@ body{
     min-width: 850px;
 }
 .statusBox{
-    color: green;
     background: #ebebeb;
     margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 15px gray;
+    padding: 5px;
+}
+.statusBoxInfo{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 img{
     height: 3em;
@@ -27,9 +36,11 @@ img{
 }
 
 .searcher{
-    margin-left: 30%;
+    text-align: center;
     margin-top: 3em;
     position: relative;
+    width: 100%;
+
 }
 
 
@@ -39,6 +50,8 @@ img{
     display: flex;
     padding-left: 2em;
     margin-top: 2em;
+
+
 }
 
 .searchTerm {
@@ -74,5 +87,37 @@ img{
     position: absolute;
     top: 50%;
     max-width: 30%;
+    display: inline-block;
+
+
 
 }
+
+.clearer {
+    margin-left: 2em;
+    padding: 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ebebeb;
+    background-color: #1277c9;
+    border: none;
+    border-radius: 15px;
+}
+
+.clearer:hover {
+    background-color: #1277c9
+}
+
+.clearer:active {
+    background-color: #1277c9;
+    transform: translateY(2px);
+}
+
+
+h3, h2{
+    text-align: center;
+}
+

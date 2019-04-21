@@ -1,13 +1,28 @@
+
+function clearStack(){
+    var parent = document.getElementById("parent");
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
+
+
 $(function() {
     var query;
     var parent;
+
+
+
+
+
 
     $("#check").on("click keydown", function (e) {
 
         e.preventDefault();
 
         query = document.getElementById("query");
-        queryString = query.value;
+        var queryString = query.value;
         parent = document.getElementById("parent");
         var statusBox = document.createElement('div');
         statusBox.className = 'statusBox';

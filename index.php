@@ -7,7 +7,7 @@
 
 
 <div class="searcher">
-<h3>Check if a website maintains a secure SSL connection</h3>
+<h3>Check for secure connections</h3>
 
 
     <div class="wrap">
@@ -23,6 +23,7 @@
 
 <br><br><br><br>
 <hr>
+<button class="clearer" onclick="clearStack()">Clear Stack</button>
 <br>
 <div class="parent" id="parent"></div>
 

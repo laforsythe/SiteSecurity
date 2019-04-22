@@ -2,12 +2,19 @@
     require 'includes/header.php';
 ?>
 
-<div class="banner"> <img src="images/logo1.png"></div>
 
 
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <!-- <a href="#">Favorited</a> -->
+        <a href="tips.php">Staying Safe on the web</a>
+        <a href="about.php">About Us</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">☰</button>
 
 <div class="searcher">
-<h3>Check for secure connections</h3>
+<h3>Check Domain <br> for SSL Certification</h3>
 
 
     <div class="wrap">

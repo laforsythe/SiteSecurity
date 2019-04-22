@@ -10,3 +10,4 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
+<div class="banner"><img src="images/logo1.png" onClick="window.location.href='index.php'"q></div>

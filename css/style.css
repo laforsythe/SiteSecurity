@@ -25,6 +25,7 @@ img{
     width: 100%;
     background: #ebebeb;
     box-shadow: 0 0 15px gray;
+    padding-top: -50px;
 
 
 }
@@ -84,10 +85,11 @@ img{
 /*Resize the wrap to see the search bar change!*/
 .wrap{
     min-width: 30%;
-    position: absolute;
+ /*   position: absolute;   */
     top: 50%;
     max-width: 30%;
     display: inline-block;
+    margin-right: 5em;
 
 
 
@@ -102,22 +104,68 @@ img{
     text-decoration: none;
     outline: none;
     color: #ebebeb;
-    background-color: #1277c9;
+    background-color: darkred;
     border: none;
     border-radius: 15px;
 }
 
 .clearer:hover {
-    background-color: #1277c9
+    background-color: #444
 }
 
 .clearer:active {
-    background-color: #1277c9;
     transform: translateY(2px);
 }
 
 
 h3, h2{
     text-align: center;
+}
+
+.sidepanel  {
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    height: 246px;
+    top: -4px;
+    left: 0;
+    background-color: darkred;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 3.5em;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
 }
 
